@@ -10,8 +10,8 @@ export const Home = () => {
         {/* LEFT SIDE: IMAGE */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img
-            src="/myphoto.jpg"
-            alt="Daniela"
+            src={`${import.meta.env.BASE_URL}myphoto.jpg`}
+            alt="My Photo"
             className="w-40 h-40 md:w-70 md:h-70 object-cover rounded-full shadow-lg"
           />
         </div>

@@ -15,7 +15,7 @@ export const Navbar = ({ menuOpen, setMenuOpen }) => {
         <div className="flex justify-between items-center h-16">
           <a href="#home" className="font-mono text-xl font-bold text-white">
             <img
-              src="/susan-logo.png"
+              src={`${import.meta.env.BASE_URL}susan-logo.png`}
               alt="Susan Logo"
               className="max-w-[120px] md:max-w-[160px]"
             />

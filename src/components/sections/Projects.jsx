@@ -19,7 +19,7 @@ export const Projects = () => {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
             <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)]">
               <img
-                src="/calculator.png"
+                src={`${import.meta.env.BASE_URL}calculator.png`}
                 alt="calculator"
                 className="h-45 w-full object-contain
                 "
@@ -53,7 +53,7 @@ export const Projects = () => {
             </div>
             <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)] transition-all">
               <img
-                src="/myportfolio.png"
+                src={`${import.meta.env.BASE_URL}myportfolio.png`}
                 alt="portfolio"
                 className="h-45 w-full object-contain
                 "
@@ -84,7 +84,7 @@ export const Projects = () => {
             </div>
             <div className="glass rounded-xl p-8 border-white/10 border hover:-translate-y-1 hover:shadow-[0_0_15px_rgba(59,130,246,0.5)] transition-all">
               <img
-                src="/myportfolio.png"
+                src={`${import.meta.env.BASE_URL}myportfolio.png`}
                 alt="portfolio"
                 className="h-45 w-full object-contain
                 "
